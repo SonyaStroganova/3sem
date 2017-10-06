@@ -25,7 +25,8 @@ int main(int atgc, char *argv[], char *envp[])
 	while(1) 
 	{
 		char str[255] = "";
-		scanf("%s", str);
+		gets(str);
+		
 		
 		switch(pid = fork()) {
 			case 0:
